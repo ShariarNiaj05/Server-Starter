@@ -1,4 +1,4 @@
 node_modules
 .env
 dist
-src/app/modules/scratch
+# src/app/modules/scratch
