@@ -1,10 +1,7 @@
 import { Router } from "express";
+import { demoRoute } from "../modules/scratch/scratch.route";
 
 const router = Router();
-
-const demoRoute = (req, res) => {
-  res.send("Hello scratch server!");
-};
 
 const moduleRoutes = [
   {
